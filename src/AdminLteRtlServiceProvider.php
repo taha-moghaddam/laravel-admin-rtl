@@ -28,7 +28,7 @@ class AdminLteRtlServiceProvider extends ServiceProvider
         Admin::booting(function () use ($vendor_path) {
             array_push(
                 Admin::$baseCss,
-                $vendor_path.'AdminLteRtl/dist/adminlte-rtl.css'
+                $vendor_path.'/adminlte-rtl.css'
             );
         });
     }
