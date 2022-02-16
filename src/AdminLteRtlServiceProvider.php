@@ -28,19 +28,8 @@ class AdminLteRtlServiceProvider extends ServiceProvider
         Admin::booting(function () use ($vendor_path) {
             array_push(
                 Admin::$baseCss,
-                $vendor_path.'MaterialAdminLTE/dist/css/bootstrap-material-design.min.css',
-                $vendor_path.'MaterialAdminLTE/dist/css/ripples.min.css',
-                $vendor_path.'MaterialAdminLTE/dist/css/MaterialAdminLTE.min.css',
-                $vendor_path.'MaterialAdminLTE/dist/css/skins/'.$skin.'.min.css',
-                $vendor_path.'MaterialAdminLTE/dist/css/custom.css'
+                $vendor_path.'AdminLteRtl/dist/adminlte-rtl.css'
             );
-            array_push(
-                Admin::$baseJs,
-                $vendor_path.'MaterialAdminLTE/dist/js/material.min.js',
-                $vendor_path.'MaterialAdminLTE/dist/js/ripples.min.js'
-            );
-
-            Admin::script('$.material.init()');
         });
     }
 }
