@@ -3,7 +3,7 @@
     "description": "Make AdminLTE right-to-left on laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "adminlte", "rtl"],
-    "homepage": "https://github.com/taha-moghaddam/adminlte-rtl",
+    "homepage": "https://github.com/taha-moghaddam/laravel-admin-rtl",
     "license": "MIT",
     "authors": [
         {
