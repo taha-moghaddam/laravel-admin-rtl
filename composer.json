@@ -1,0 +1,30 @@
+{
+    "name": "laravel-admin-ext/adminlte-rtl",
+    "description": "Make AdminLTE right-to-left on laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "adminlte", "rtl"],
+    "homepage": "https://github.com/taha-moghaddam/adminlte-rtl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "taha-moghaddam",
+            "email": "m.taha.moghaddam@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": ">=1.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taha\\AdminLteRtl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Taha\\AdminLteRtl\\AdminLteRtlServiceProvider"
+            ]
+        }
+    }
+}
